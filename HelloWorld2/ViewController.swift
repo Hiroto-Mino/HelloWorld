@@ -22,13 +22,18 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        //Chapter2
+        var str: String = "あなたは何が好きですか？"
+        print(str)
+        print("りんごです")
+        
         // 変数いじってみる
         var hello:String = "こんにちは"
         var hello2:Int   = 0
         var hello3:Float = 0.1
         var mutableStr:String = "Hello"
         var itemsArray:[String] = ["foo","bar","baz"]
-        var itemsDictionary:[String: String] = [
+        let itemsDictionary:[String: String] = [
             "foo":"FOO",
             "bar":"BAR",
             "baz":"BAZ"
@@ -81,9 +86,8 @@ class ViewController: UIViewController {
         print(greetString)
     }
     
+
+    
     func greet(expression: String,person: String) -> String {
         return "\(expression)\(person)."
     }
-    
-}
-
