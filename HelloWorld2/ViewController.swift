@@ -23,11 +23,28 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         //Chapter2
-        var str: String = "あなたは何が好きですか？"
+        let str: String = "あなたは何が好きですか？"
         print(str)
         print("りんごです")
+        print(str)
+        print("みかんです")
+    }
+    
+        //りんごを1個、みかんを2個、きゅうりを3本、魚を4匹買いました
+              var a = 1
+              var b = 2
+              var c = 3
+              var d = 4
+        let aString = String(a)
+        let bString = String(b)
+        let cString = String(c)
+        let dString = String(d)
+        var value = "りんごを" + aString + "個、みかんを" + bString + "個、きゅうりを" + cString + "本、魚を" + dString + "匹買いました。"
+        
+    
         
         // 変数いじってみる
+        var number = 1
         var hello:String = "こんにちは"
         var hello2:Int   = 0
         var hello3:Float = 0.1
@@ -38,15 +55,15 @@ class ViewController: UIViewController {
             "bar":"BAR",
             "baz":"BAZ"
         ]
-        let list = [3,7,9,12,8,5]
-        for number in list {
+        let list2 = [3,7,9,12,8,5]
+        for number in list2 {
             if number % 2 == 0 {
                 print("number \(number) is even")
             } else {
                 print("number \(number) is odd")
             }
         }
-        var number = 1
+    
         while number < 10 {
             print(number)
             number += 2
@@ -80,6 +97,8 @@ class ViewController: UIViewController {
         print(itemsArray[1])
         print(itemsDictionary.description)
         
+
+        
         let greetString = greet(expression: "AAAAA", person: "BBBBB")
         test.text = greetString
         
@@ -91,3 +110,4 @@ class ViewController: UIViewController {
     func greet(expression: String,person: String) -> String {
         return "\(expression)\(person)."
     }
+

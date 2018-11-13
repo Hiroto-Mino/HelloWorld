@@ -14,6 +14,8 @@
 		280AF7E7216520AA005B90DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 280AF7E5216520AA005B90DD /* LaunchScreen.storyboard */; };
 		280AF7F2216520AA005B90DD /* HelloWorld2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280AF7F1216520AA005B90DD /* HelloWorld2Tests.swift */; };
 		280AF7FD216520AA005B90DD /* HelloWorld2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280AF7FC216520AA005B90DD /* HelloWorld2UITests.swift */; };
+		B87A849E219ADDFA00D0F3E0 /* CarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87A849D219ADDFA00D0F3E0 /* CarViewController.swift */; };
+		B87A84A0219AE04700D0F3E0 /* FerrariViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87A849F219AE04700D0F3E0 /* FerrariViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		280AF7F8216520AA005B90DD /* HelloWorld2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorld2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		280AF7FC216520AA005B90DD /* HelloWorld2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorld2UITests.swift; sourceTree = "<group>"; };
 		280AF7FE216520AB005B90DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B87A849D219ADDFA00D0F3E0 /* CarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarViewController.swift; sourceTree = "<group>"; };
+		B87A849F219AE04700D0F3E0 /* FerrariViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FerrariViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				280AF7E3216520AA005B90DD /* Assets.xcassets */,
 				280AF7E5216520AA005B90DD /* LaunchScreen.storyboard */,
 				280AF7E8216520AA005B90DD /* Info.plist */,
+				B87A849D219ADDFA00D0F3E0 /* CarViewController.swift */,
+				B87A849F219AE04700D0F3E0 /* FerrariViewController.swift */,
 			);
 			path = HelloWorld2;
 			sourceTree = "<group>";
@@ -256,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B87A84A0219AE04700D0F3E0 /* FerrariViewController.swift in Sources */,
 				280AF7DF216520AA005B90DD /* ViewController.swift in Sources */,
+				B87A849E219ADDFA00D0F3E0 /* CarViewController.swift in Sources */,
 				280AF7DD216520AA005B90DD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
